@@ -1,5 +1,5 @@
 {
-  "name": "book-junction-schemas",
+  "name": "@book-junction/schemas",
   "version": "1.0.0",
   "description": "A npm package that provide all type of schemas used in the book-junction project.",
   "main": "index.js",
