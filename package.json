@@ -1,0 +1,28 @@
+{
+  "name": "book-junction-schemas",
+  "version": "1.0.0",
+  "description": "A npm package that provide all type of schemas used in the book-junction project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:commit-msg": "node scripts/commit_msg_generator.script.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahityagaurav4210/book-junction-schemas.git"
+  },
+  "keywords": [
+    "book-junction",
+    "schemas",
+    "book-junction-schemas"
+  ],
+  "author": "Gaurav Sahitya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahityagaurav4210/book-junction-schemas/issues"
+  },
+  "homepage": "https://github.com/sahityagaurav4210/book-junction-schemas#readme",
+  "dependencies": {
+    "clipboardy": "^4.0.0"
+  }
+}
