@@ -1,1 +1,3 @@
-console.log('Welcome to @book-junction/schemas package.');
+const Schema = require('./schemas');
+
+module.exports = Schema;
