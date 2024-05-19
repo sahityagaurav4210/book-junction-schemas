@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "generate:commit-msg": "node scripts/commit_msg_generator.script.mjs"
+    "generate:commit-msg": "node scripts/commit_msg_generator.script.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/sahityagaurav4210/book-junction-schemas#readme",
   "dependencies": {
+    "@book-junction/clipboard": "^1.0.0",
     "@book-junction/patterns": "^1.0.0",
-    "clipboardy": "^4.0.0",
     "joi": "^17.13.1"
   },
   "devDependencies": {
